@@ -15,9 +15,10 @@ dependencies:
   code_builder: ^4.1.0
   dart_style: ^2.2.0
   auto_route:
-#       ^3.1.0
-    path: ../auto_route
-
+    git:
+      url: https://github.com/alvinthen/auto_route_library
+      ref: fix/flutter-2.6
+      path: auto_route
 
 dev_dependencies:
   source_gen_test:
